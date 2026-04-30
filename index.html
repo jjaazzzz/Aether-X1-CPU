@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aether X1 | 3D Next-Gen Processor</title>
+    <meta name="description" content="Experience the 3D future with Aether X1. 32 Cores, 6.0GHz, and the world's first 2nm architecture.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-gradient">
+        <div class="planet planet-1"></div>
+        <div class="planet planet-2"></div>
+        <div class="spaceship ship-1"></div>
+        <div class="spaceship ship-2"></div>
+    </div>
+    
+    <header>
+        <a href="#" class="logo">AETHER</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">홈페이지</a></li>
+                <li><a href="#specs">제품</a></li>
+                <li><a href="#features">스토리</a></li>
+                <li><a href="#contact">문의</a></li>
+                <li><a href="en.html" class="lang-switch">EN</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn btn-primary" style="padding: 0.7rem 1.5rem; font-size: 0.8rem;">구매하기</a>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal">AETHER X1</h1>
+                <p class="reveal">차세대 퀀텀 프로세싱의 시작</p>
+                <div class="reveal" style="transform: translateZ(20px);">
+                    <a href="#specs" class="btn btn-primary">지금 사전 예약</a>
+                </div>
+            </div>
+            <div class="hero-img-container">
+                <div class="cpu-label">AETHER X1</div>
+                <img src="cpu.png" alt="Aether X1 CPU" class="hero-img">
+                <img src="cpu.png" alt="" class="hero-img reflection">
+                <div class="contact-shadow"></div>
+            </div>
+        </section>
+
+        <!-- Specs Section -->
+        <section id="specs" class="specs">
+            <div class="spec-card card-3d reveal">
+                <h3>코어 수</h3>
+                <span class="value">32</span>
+                <p>고성능 퍼포먼스 코어</p>
+            </div>
+            <div class="spec-card card-3d reveal">
+                <h3>최대 클럭</h3>
+                <span class="value">6.0<span>GHz</span></span>
+                <p>초고속 처리 속도</p>
+            </div>
+            <div class="spec-card card-3d reveal">
+                <h3>아키텍처</h3>
+                <span class="value">2<span>nm</span></span>
+                <p>정밀한 퀀텀 공정</p>
+            </div>
+            <div class="spec-card card-3d reveal">
+                <h3>L3 캐시</h3>
+                <span class="value">128<span>MB</span></span>
+                <p>무한한 데이터 버퍼</p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="section-title reveal">
+                <h2>Why AETHER?</h2>
+                <p>기술 그 이상의 시각적 경험을 제공합니다.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item card-3d reveal">
+                    <i data-lucide="zap" class="feature-icon"></i>
+                    <h4>초고속 연산</h4>
+                    <p>최신 2nm 공정 기술을 통해 이전 세대 대비 40% 이상 향상된 성능을 체감하세요.</p>
+                </div>
+                <div class="feature-item card-3d reveal">
+                    <i data-lucide="cpu" class="feature-icon"></i>
+                    <h4>지능형 제어</h4>
+                    <p>AI 엔진이 실시간으로 워크로드를 분석하여 최적의 코어 배분을 수행합니다.</p>
+                </div>
+                <div class="feature-item card-3d reveal">
+                    <i data-lucide="shield-check" class="feature-icon"></i>
+                    <h4>압도적 효율</h4>
+                    <p>혁신적인 전력 설계로 고성능 작업 중에도 발열과 전력 소모를 최소화했습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="padding: 150px 5%; text-align: center; perspective: 1000px;">
+            <div class="reveal card-3d" style="max-width: 800px; margin: 0 auto; padding: 4rem;">
+                <h2 style="font-size: 3rem; margin-bottom: 1.5rem;">Ready for the 3D Era?</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">Aether X1과 함께 차세대 컴퓨팅의 주인공이 되세요.</p>
+                <a href="mailto:info@aether.com" class="btn btn-primary">이메일 문의하기</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aether Technologies. All rights reserved.</p>
+        <div class="socials">
+            <a href="#"><i data-lucide="twitter"></i></a>
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="#"><i data-lucide="github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
